@@ -1,0 +1,49 @@
+# Laravel core
+/vendor/
+/node_modules/
+
+# Laravel storage and cache
+/storage/*.key
+/storage/*.txt
+/storage/*.log
+/storage/framework/*
+!/storage/framework/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/app/public/*
+!/storage/app/public/.gitignore
+
+# Laravel environment
+.env
+.env.*
+!.env.example
+
+# Laravel IDE helper
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Laravel Telescope
+/telescope
+
+# Composer
+composer.lock
+
+# npm / yarn
+npm-debug.log
+yarn-error.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Laravel Sail (Docker)
+docker-compose.override.yml
+
+# Vite (Laravel 9+)
+/public/hot
+/public/build
+/.vite
+
+# Misc
+*.sqlite
