@@ -1,0 +1,2 @@
+# EOQ-ELECTRE
+My Skripsi
